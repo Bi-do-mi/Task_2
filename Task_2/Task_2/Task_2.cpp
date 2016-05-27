@@ -38,6 +38,7 @@ int main()
 			pvec.push_back(pr);
 			beg_interv += s;
 		}
+		cout << "Индексы частей вектора: \n";
 		for (auto a : pvec)
 		{
 			cout << a.first << ", " << a.second << endl;
